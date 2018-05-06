@@ -1,0 +1,32 @@
+{
+  "name": "reactflexboxparty",
+  "version": "1.0.0",
+  "description": "like mario party, but flexbox and react",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack -d --watch",
+    "build" : "webpack -p"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rufasa85/reactFlexboxParty.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rufasa85/reactFlexboxParty/issues"
+  },
+  "homepage": "https://github.com/Rufasa85/reactFlexboxParty#readme",
+  "dependencies": {
+    "babel-loader": "^7.1.4",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2",
+    "webpack": "^4.7.0"
+  },
+  "devDependencies": {
+    "webpack-cli": "^2.1.3"
+  }
+}
